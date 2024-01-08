@@ -51,7 +51,7 @@ function App() {
   const init= async() => {
     // wait for firebase
     setLoading(false);
-  }
+  };
   useEffect(()=> {
     init();
   },[]);
