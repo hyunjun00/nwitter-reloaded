@@ -38,7 +38,6 @@ export default function CreateAccount() {
             setLoading(false);
         }
     
-        console.log(name,email,password);
     }
     return (
         <Wrapper>
